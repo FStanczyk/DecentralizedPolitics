@@ -1,0 +1,91 @@
+:root {
+    --dark: #000807;
+    --green: #62C370 ;
+    --pink: #CC3363;
+    --blue: #B3B7EE ;
+    --white: #FBF9FF;
+
+    --width: 163px;
+    --height: 120px;
+}
+.cardContainer{
+    display: inline-block;
+    width: var(--width);
+    height: var(--height);
+    background-color: var(--blue);
+    padding-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: var(--pink);
+    border-width: 4px;
+    position: relative;
+    box-shadow: 3px 3px 0.5em rgb(36, 36, 36);
+
+    transition: background-color 0.2s ease;
+}
+.jpg{
+    z-index:1;
+    width: 160px;
+    height: 112px;
+    object-fit:cover;
+    background-color: var(--LightBlue);
+
+    position: relative;
+    margin-left: 18px;
+
+    border-radius: 8px;
+    box-shadow: 3px 3px 0.5em rgb(25, 25, 24);
+}
+.main{
+    text-align: center;
+}
+.title{
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.price{
+    margin-left: 8px;
+    font-size: 12px;
+}
+.eth{
+    width: 8px;
+    height: 16px;
+    margin-left: 4px;
+}
+.power{
+    text-align: center;
+    font-size: 12px;
+}
+.president{
+    color: var(--pink);
+    font-size: 12px;
+    margin-left: 16px;
+    max-width: 90%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+
+    position: absolute;
+    bottom: 10px;
+
+}
+.onSale{
+    position: absolute;
+    z-index:2;
+
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    background-color: #02951f;
+    border-radius: 15px;
+    margin-top: -25px;
+    margin-left: -10px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}

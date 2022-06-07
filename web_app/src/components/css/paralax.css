@@ -1,0 +1,18 @@
+:root {
+    --dark: #000807;
+    --green: #62C370 ;
+    --pink: #CC3363;
+    --blue: #B3B7EE ;
+    --white: #FBF9FF;
+}
+.paralaxBackground {
+    position: absolute;
+    z-index: -2;
+    opacity: 25%;
+}
+.center{
+    width: 115%;
+    height: 115%;
+    margin-top: -8%;
+    position: fixed;
+}

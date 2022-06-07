@@ -1,0 +1,95 @@
+:root {
+  --dark: #000807;
+  --green: #62C370 ;
+  --pink: #CC3363;
+  --blue: #B3B7EE ;
+  --white: #FBF9FF;
+}
+a, a:hover, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+ }
+@font-face {
+  font-family: Retro;
+  src: url(Retro_Gaming.ttf);
+}
+html{font-family:Retro}
+body{
+  background-color: var(--dark);
+}
+.Header{
+  border-bottom-style: solid;
+  border-color: var(--white);
+  border-width: 6px;
+  color: var(--white);
+  height: 30px;
+  padding-top:7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+.connectButton{
+  background-color: var(--blue);
+  height: 130px;
+  width: 130px;
+  margin-right: 5%;
+}
+.connectButtonBorder{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  color: var(--white);
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-width: 4px;
+  border-color:var(--pink);
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.connectButtonBorder:hover{
+  background-color: var(--pink);
+  color: var(--white);
+}
+.mainTitle{
+  font-size: 36px;
+  text-align: center;
+  color: var(--white);
+}
+.connectButton{
+  text-align: center;
+  float: right;
+}
+.mainCointainer{
+  border-style: solid;
+  border-color: var(--white);
+  border-width: 6px;
+
+  width: 65%;
+  margin: auto; 
+  padding-bottom: 10px;
+}
+.aboutButton{
+  color: var(--white);
+  transition: color 0.2s;
+}
+.aboutButton:hover{
+  color: var(--green);
+}
+.gitHubButton{
+  float:right;
+  color: var(--white);
+  transition: color 0.2s;
+}
+.gitHubButton:hover{
+  color: var(--green);
+}
+
+.walletImg{
+  width: 48px;
+  height: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  display: block;
+}

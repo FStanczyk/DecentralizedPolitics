@@ -1,0 +1,24 @@
+:root {
+    --dark: #000807;
+    --green: #62C370 ;
+    --pink: #CC3363;
+    --blue: #B3B7EE ;
+    --white: #FBF9FF;
+}
+.userPanelContainer{
+    color: var(--white);
+    background-color: var(--black);
+    border-style: solid;
+    border-width: 4px;
+    border-color: var(--pink);
+    float: left;
+    width: 15%;
+    margin-left: 5px;
+
+}
+.account{
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,47 @@
+:root {
+    --dark: #000807;
+    --green: #62C370 ;
+    --pink: #CC3363;
+    --blue: #B3B7EE ;
+    --white: #FBF9FF;
+}
+.countriesButton{
+    color: var(--white);
+    background-color: var(--pink);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    transition: background-color 0.2s;
+}
+.countriesButton:hover{
+    background-color: var(--blue);
+}
+
+.getEtherButton{
+    color: var(--dark);
+    background-color: var(--blue);
+    border-color: var(--pink);
+    border-style:solid;
+    border-width: 4px;
+    width: 10%;
+    padding: 8px;
+    position: absolute;
+    margin-left: 15px;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+.getEtherButton:hover{
+    background-color: var(--dark);
+    border-color: var(--blue);
+    color: var(--white);
+    cursor: pointer;
+}
+#getEtherModal{
+    margin-top: 68px;
+    font-size: 12px;
+    color: var(--white);
+    margin-left: 15px;
+}

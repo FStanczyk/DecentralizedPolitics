@@ -1,0 +1,57 @@
+:root {
+    --dark: #000807;
+    --green: #62C370 ;
+    --pink: #CC3363;
+    --blue: #B3B7EE ;
+    --white: #FBF9FF;
+}
+.panelContainer{
+    color: var(--white);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: var(--pink);
+    padding: 5px;
+    width: 95%;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.panelContainer:hover{
+    background-color: var(--black);
+}
+#listText{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: var(--white);
+    text-align: center;
+}
+.changeSite{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    color: var(--white);
+    text-align: center;
+    display: inline-block;
+}
+.changeSiteContainer{
+    text-align: center;
+}
+.panelBorder{
+    border-style: solid;
+    border-width: 4px;
+    border-color: var(--blue);
+    padding: 5px;
+}
+.panelBorderActive{
+    border-style: solid;
+    border-width: 4px;
+    border-color: var(--green);
+    padding: 5px;
+}
+.panelPresident{
+    float: right;
+    font-size: 12px;
+}
+.panelPower{
+    margin-left: 20px;
+}

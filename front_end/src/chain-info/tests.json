@@ -1,0 +1,15 @@
+{
+  "contracts": {
+    "Politics": "4494337120697102b79dee24f9d45138863004cc"
+  },
+  "tests": {
+    "tests/test_a.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "..",
+      "sha1": "c27014ae905faa1b7dde05f2fe624c527e4e677a",
+      "txhash": []
+    }
+  },
+  "tx": {}
+}
