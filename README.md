@@ -1,6 +1,4 @@
-# DecentralizedPolitics
-
-This is by far my most complex project.
+# DecentralizedPolitics 
 
 in /contracts you will find my base solidity contract that is deployed to the rinkeby testnet.
 
